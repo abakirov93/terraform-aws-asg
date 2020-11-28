@@ -1,5 +1,5 @@
 # Problem Statement:
-In order to automate the application deployment process faster,we need to modularize terraform code that builds multiple components of auto scaling group.
+In order to automate the application deployment process faster, we need to modularize terraform code that builds multiple components of auto scaling group.
  
 # Goal:
 Implement terraform module for above requirements
