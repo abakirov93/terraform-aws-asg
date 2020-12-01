@@ -2,7 +2,7 @@ resource "aws_autoscaling_group" "example" {
   availability_zones = [
     "${var.region}a",
     "${var.region}b",
-    "${var.region}c",
+    "${var.region}f", # c
   ]
 
   desired_capacity = "${var.desired_capacity}"

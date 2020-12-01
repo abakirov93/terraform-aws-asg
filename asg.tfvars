@@ -1,0 +1,7 @@
+  source           = "./terraform-aws-asg"
+  region           = "us-east-1"
+  max_size         = "1"
+  min_size         = "1"
+  desired_capacity = "1"
+  image_owner      = "099720109477"    # For CentOS "285398391915"
+  instance_type    = "c5.large"
